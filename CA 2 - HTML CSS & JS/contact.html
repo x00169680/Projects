@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="formCA.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">CAFE AMERICAN</a></h1>
+                <!-- <img src="images/logo.png" alt="logo" width="120"> -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wiki.html">Wiki</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contact-form">
+        <div class="container">
+            <h1><span class="first-word">Contact</span> Us</h1>
+            <p>Please complete the below form to contact us</p>
+        </div>
+
+        <form action="page.js" method="POST">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+    
+            <div class="form2">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form3">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="50" rows="5"></textarea>
+            </div>
+    
+            <a class="btn2" href="" onclick="validation()">Submit</a>
+        </form>        
+    </main>
+    
+    <footer class="content-footer">
+            <p>Cafe American &trade; 2020</p>
+    </footer>
+
+</body>
+</html>

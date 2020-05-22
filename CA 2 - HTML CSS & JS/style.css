@@ -1,0 +1,329 @@
+/* Reset Defaults */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: verdana, sans-serif;
+    background-color: #FFFFFF;
+    line-height: 1.6em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: .5em;
+}
+
+p {
+    margin: .5em, 0em;
+}
+
+/* Top Container */
+
+#container-big {
+    background: url('images/car-parked-on-the-street-in-grayscale-65437.jpg') no-repeat center center/cover;
+    height: 33.6em;
+}
+
+#container-big p {
+    padding-bottom: .6em;
+}
+
+.container-small {
+    color: #fff;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.container-small h1 {
+    font-size: 3.6em;
+    line-height: 1.2em;
+}
+
+.container p {
+    padding-bottom: 1.2em;
+    line-height: 1.5em;
+}
+
+/* Bottom Container */
+#bottom-container {
+    height: 17em;
+}
+
+#box1 {
+    width: 45%;
+    margin-left: .2%;
+    margin-right: .2%;
+    margin-top: 1.2em;
+    float: left;
+    padding: 1.5em 1.5em;
+    border: .1em solid #000;
+    border-radius: .5em;
+    text-align: center;
+}
+#box3 {
+    width: 45%;
+    margin-left: .2%;
+    margin-right: .2%;
+    margin-top: 1.2em;
+    float: right;
+    padding: 1.5em 1.5em;
+    border: .1em solid #000;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.group-img {
+    background: url('images/image2.jpg') no-repeat;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.group-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 3em 1.7em;
+    overflow: hidden;
+}
+
+/* Nav */
+
+#nav {
+    background: #000;
+    height: 4em;
+    line-height: .1em;
+}
+
+.container {
+    overflow: auto;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+#nav h1{
+    float: left;
+    padding-top: 0;
+}
+
+#nav ul {
+    float: right;
+    list-style: none;
+}
+
+#nav li {
+    float: left;
+    line-height: 1.3em;
+}
+
+#nav a{
+    color: #fff;
+    display: block;
+    padding: 1.3em;
+    text-align: center;
+}
+
+nav a.active, a:hover {
+    background: #333;
+}
+
+footer{
+    text-align: center;
+    background: #333;
+    color: #ffffff;
+    height: 3em;
+    line-height: 3em;
+}
+
+#footer-home {
+    background: #FFF;
+    color: #000;
+}
+
+/* CONTACT FORM */
+
+#contact-form {
+    padding: 3em 4em;
+}
+
+#contact-form p {
+    padding-bottom: 2em;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: .8em;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    border: .1em #ddd solid;
+}
+
+#contact-form textarea {
+    height: 8em;
+    padding-bottom: 1.5em;
+}
+
+.form2 {
+    margin-top: 2em;
+}
+
+.form3 {
+    margin-top: 2em;
+    margin-bottom: 1.4em;
+}
+
+.content-footer {
+    margin-top: 9.3em;
+    background: #000;
+}
+
+/* About */
+
+#about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 2.5em 0em;
+}
+
+#about p {
+    padding-bottom: .5em;
+}
+
+#about-review p {
+    padding-bottom: 2.5em;
+}
+
+#about-martin {
+    padding-top: 2em;
+}
+
+#about-video {
+    padding-top: 2em;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 4.5em;
+}
+
+#about-review {
+    width: 50%;
+    padding-top: 2em;
+    box-sizing: border-box;
+    float: right;
+    padding: 0em 4em;
+    padding-top: 2.5em;
+    padding-bottom: 10.3em;
+}
+
+#about-footer {
+    clear: both;
+    background: #000;
+}
+
+/* Wiki */
+
+#wiki-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#wiki-story {
+    padding-top: .8em;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-bottom: 4.2em;
+}
+
+#wiki-story h2 {
+    padding-top: 1.3em;
+}
+
+#wiki-images {
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 6em;
+    padding-bottom: 3.3em;
+}
+
+#wiki-img1 {
+    float: left;
+}
+
+#wiki-img2 {
+    float: left;
+}
+
+#wiki-footer {
+    clear: both;
+    background: #000;
+}
+
+/* Common Classes */
+
+.first-word {
+    color: #f7c08a;
+}
+
+.larger-font {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.1em;
+    color: #fff;
+    background: #333;
+    padding: .8em 1.2em;
+    border: none;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #333;
+}
+
+.btn2 {
+    display: inline-block;
+    font-size: .8em;
+    color: #fff;
+    background: #333;
+    padding: .8em 1.2em;
+    border: none;
+}
+
+.btn2:hover {
+    background: #f7c08a;
+    color: #fff;
+}
+
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.primary {
+    background: #333;
+    color: #f7c08a;
+}
+
